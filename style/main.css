@@ -1,0 +1,430 @@
+@font-face {
+    font-family: "DIN"; 
+    src: url(../assets/fonts/DINCondensed-Light.ttf);
+}
+@font-face {
+    font-family: dinbold;
+    src: url(../assets/fonts/DINCondensed-Regular.ttf);
+}
+body{
+    font-family: "DIN";
+    padding: 0;
+    margin: 0;
+    padding-bottom: 3em;
+}
+.logo{
+    height: 45px;
+    position: absolute;
+    top: 1em;
+    left: 1em;
+}
+nav{
+    margin-top: 1em;
+    font-size: 1.2em;
+}
+nav ul li a{
+    color: #2F527A !important;
+    transition: 0.5s;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    text-decoration-color: #FFC000;
+    font-family: dinbold;
+}
+#head input[type=submit]{
+    color: white;
+    background-color: #2F527A;
+    border: none;
+    font-size: 1.1em;
+}
+.header{
+    font-family: dinbold;
+    color: #2F527A;
+    font-size: 5em;
+    margin-top: 1.75em;
+}
+#header{
+    margin-top: -0.6em;
+}
+.subhead{
+    color: #595959;
+    font-size: 1.2em;
+    margin-top: -1em;
+}
+#text{
+    margin-left: 4em;
+}
+#head{
+    background: url(../assets/images/background.svg) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 0%;
+}
+.adv{
+    margin-top: 3.5em;
+    text-align: center;
+    color: #2F527A;
+}
+.number{
+    font-family: dinbold;
+    font-size: 2.5em;
+}
+.textadv{
+    margin-top: -1.5em;
+}
+#main{
+    text-align: center;
+    margin-top: 1.5em;
+    padding-left: 6em;
+}
+.box{
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 1.5em;
+    padding-top: 1em;
+    width: 300px;
+}
+.num{
+    text-align: left;
+    font-size: 2em;
+    font-family: dinbold;
+    color: #2F527A;
+}
+.box img{
+    width: 90px;
+}
+.desc{
+    color: #2F527A;
+    margin-top: 2em;
+    font-size: 1.2em;
+}
+#projects{
+    margin-top: 5em;
+    background: #2F527A;
+    padding-top: 2em;
+    display: block;
+}
+.head1{
+    color: white;
+    font-family: dinbold;
+    font-size: 3em;
+    border-style: solid;
+    border-color: white;
+    padding: 0.1em;
+    padding-bottom: 0.005em;
+    margin-left: 2em;
+}
+.head2{
+    color: #2F527A;
+    font-family: dinbold;
+    font-size: 3em;
+    background: white;
+    padding: 0.16em;
+    padding-bottom: 0.06em;
+}
+#order{
+    background: white;
+}
+#order .head{
+    color: #2F527A;
+    font-size: 2em;
+    font-family: dinbold;
+    margin-top: 0.5em;
+}
+#order .subhead2{
+    margin-top: 0.4em;
+    color: #595959;
+}
+#order .but{
+    color: #2F527A;
+    font-size: 1.3em;
+}
+#projects #img1{
+    padding: 0;
+    background: url(../assets/images/Rectangle\ 23.png) no-repeat center center;
+    height: 200px;
+}
+#projects #img2{
+    padding: 0;
+    background: url(../assets/images/Rectangle\ 27.png) no-repeat center top;
+}
+#projects #img3{
+    padding: 0;
+    background: url(../assets/images/Rectangle\ 22.png) no-repeat center top;
+}
+#projects #img4{
+    height: 200px;
+    padding: 0;
+    background: url(../assets/images/image\ 7.png) no-repeat center top;
+}
+#projects #img5{
+    padding: 0;
+    background: url(../assets/images/Rectangle\ 24.png) no-repeat center top;
+}
+#projects #img6{
+    padding: 0;
+    background: url(../assets/images/image\ 6.png) no-repeat center center;
+}
+#projects #img7{
+    height: 200px;
+    padding: 0;
+    background: url(../assets/images/image\ 9.png) no-repeat center center;
+}
+#projects #img8{
+    padding: 0;
+    background: url(../assets/images/image\ 8.png) no-repeat center top;
+}
+#img-overlay{
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: #2f527aa1;
+    color: white;
+    font-size: 2.5em;
+    transition: 1s;
+}
+#img1:hover #img-overlay{
+    background: #ffffff00;
+    color: black;
+}
+#img2:hover #img-overlay{
+    background: #ffffff00;
+    color: black;
+}
+#img3:hover #img-overlay{
+    background: #ffffff00;
+    color: black;
+}
+#img4:hover #img-overlay{
+    background: #ffffff00;
+    color: black;
+}
+#img5:hover #img-overlay{
+    background: #ffffff00;
+    color: black;
+}
+#img6:hover #img-overlay{
+    background: #ffffff00;
+    color: black;
+}
+#img7:hover #img-overlay{
+    background: #ffffff00;
+    color: black;
+}
+#img8:hover #img-overlay{
+    background: #ffffff00;
+    color: black;
+}
+#team{
+    text-align: center;
+    margin-top: 5em;
+}
+#team h1{
+    text-align: center;
+    font-family: dinbold;
+    color: #2F527A;
+    font-size: 3em;
+}
+#team img{
+    height: 250px;
+}
+#team .head{
+    color: #FFC000;
+    font-family: dinbold;
+    font-size: 2em;
+    text-align: center;
+}
+.list{
+    line-height: 0.6em;
+    color: #2F527A;
+    font-size: 1.1em;
+    list-style: none;
+    text-align: center;
+}
+#team .row{
+    margin-top: 2em;
+}
+.client{
+    font-family: dinbold;
+    font-size: 3em;
+    color: #2F527A;
+    text-align: center;
+    margin-top: 2em;
+}
+.gallery {
+    background: #ffffff;
+    margin-top: 5em;
+}
+.gallery-cell {
+    margin-right: 10px;
+    counter-increment: gallery-cell;
+}
+#contacts{
+    background-color: #2F527A;
+    width: 1100px;
+    margin-top: 6em;
+    padding: 3.5em;
+    padding-top: 2.5em;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1);
+}
+#contacts ul{
+    list-style: none;
+    margin-top: 2em;
+    margin-left: -2em;
+}
+#contacts .h{
+    font-size: 3em;
+    color: white;
+    font-family: dinbold;
+}
+#contacts .s{
+    font-size: 1.3em;
+    color: white;
+    margin-top: 3em;
+}
+#contacts input[type=submit]{
+    color: #2F527A;
+    background-color: white;
+    border: none;
+    font-size: 1.1em;
+}
+#contacts input[type=text]{
+    color: white;
+    background-color: #2F527A;
+    border-color: white;
+}
+#contacts .social{
+    font-size: 2em;
+    color: white;
+}
+#contacts img{
+    height: 25px;
+}
+#contacts ul li{
+    margin-top: 1em;
+}
+#contacts a{
+    text-decoration: none;
+    color: #ffffff;
+}
+#projects-mob{
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+    .logo{
+        height: 30px;
+    }
+    #nav1{
+        display: none;
+    }
+    #text{
+        padding-top: 5em;
+    }
+    .header{
+        font-size: 2.2em;
+    } 
+    .subhead{
+        font-size: 0.75em;
+    }
+    .number{
+        display: none;
+    }
+    .textadv{
+        display: none;
+    }
+    #text input[type="text"]{
+        height: 30px;
+    }
+    #text input[type="submit"]{
+        font-size: 1em;
+    }
+    #main{
+        margin-left: 0em;
+        padding-left: 4em;
+    }
+    .box{
+        width: 200px;
+        margin-top: 1em;
+    }
+    .num{
+        font-size: 1.5em;
+    }
+    .desc{
+        font-size: 1em;
+    }
+    .box img{
+        height: 70px;
+        width: 70px;
+    }
+    #projects{
+        display: none;
+    }
+    #projects-mob{
+        display: block;
+    }
+    #projects-mob .head2{
+        margin-left: 0.5em;
+        margin-top: 1em;
+    }
+    #projects-mob .head{
+        font-size: 1.4em;
+    }
+    #projects-mob .but{
+        font-size: 1.2em;
+    }
+    #projects-mob #img-overlay{
+        font-size: 1.3em;
+    }
+    #projects-mob #img1{
+        padding: 0;
+        background: url(../assets/images/Rectangle\ 23.png) no-repeat center center;
+        height: 175px;
+    }
+    #projects-mob #img2{
+        padding: 0;
+        height: 175px;
+        background: url(../assets/images/Rectangle\ 27.png) no-repeat center top;
+    }
+    #projects-mob #img3{
+        padding: 0;
+        background: url(../assets/images/Rectangle\ 22.png) no-repeat center top;
+    }
+    #projects-mob #img4{
+        height: 175px;
+        padding: 0;
+        background: url(../assets/images/image\ 7.png) no-repeat center top;
+    }
+    #projects-mob #img5{
+        padding: 0;
+        background: url(../assets/images/Rectangle\ 24.png) no-repeat center top;
+    }
+    #projects-mob #img6{
+        height: 175px;
+        padding: 0;
+        background: url(../assets/images/image\ 6.png) no-repeat center center;
+    }
+    #projects-mob #img7{
+        height: 175px;
+        padding: 0;
+        background: url(../assets/images/image\ 9.png) no-repeat center center;
+    }
+    #projects-mob #img8{
+        height: 175px;
+        padding: 0;
+        background: url(../assets/images/image\ 8.png) no-repeat center top;
+    }
+    footer{
+        padding: 1em;
+    }
+    #contacts{
+        width: auto;
+    }
+    #contacts input[type="text"]{
+        width: 100px;
+    }
+    #contacts .social{
+        margin-top: 1em;
+        font-size: 1.7em;
+    }
+}

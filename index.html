@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/assets/images/icon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/main.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js"></script>
+    <title>Center AT</title>
+</head>
+<script src="jquery.maskedinput.min.js"></script>
+<body>
+    <nav>
+        <img src="assets/images/logo.png" alt="Logo" class="logo">
+        <ul class="nav justify-content-center" id="nav1">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Про нас</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Проекты</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Отзывы</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Контакты</a>
+            </li>
+          </ul>
+    </nav>
+    <head>
+        <div class="container" id="head">
+            <div class="row">
+                <div class="col" id="text">
+                    <p class="header">ВАШЕ <span style="color: #FFC000">ЛУЧШЕЕ</span></p>
+                    <p class="header" id="header">РЕШЕНИЕ</p>
+                    <p class="subhead">Партнерство, в котором профессионалы объединились <br>для профессионального роста и развития друг друга.</p>
+                    <form>
+                        <input  id="phone" name="phone" type="text" value="123123">
+                        <script>
+                            $(function(){
+                                $("#phone").mask("+7(999) 999-9999");
+                            });
+                        </script>
+                        <input type="submit" value="Отправить">
+                    </form>
+                    <div class="adv">
+                        <div class="row">
+                            <div class="col-1">
+                                <p class="number">10</p>
+                                <p class="textadv">лет опыта в бизнес-консалтинге</p>
+                            </div>
+                            <div class="col-1">
+                                <p class="number">700+</p>
+                                <p class="textadv">успешных консалтинговых проектов</p>
+                            </div>
+                            <div class="col-1">
+                                <p class="number">1500+</p>
+                                <p class="textadv">проведенных тренингов</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </head>
+    <main>
+        <div class="container-fluid" id="main">
+            <div class="row">
+                <div class="col">
+                    <div class="box">
+                        <p class="num">01</p>
+                        <img src="assets/images/image 2.png" alt="">
+                        <p class="desc">Cделать так, чтобы они смогли поддерживать их и после окончания акселератора</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="box">
+                        <p class="num">02</p>
+                        <img src="assets/images/image 3.png" alt="">
+                        <p class="desc">Увидеть по окончании вашего акселератора высокий уровень удовлетворенности участников</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="box">
+                        <p class="num">03</p>
+                        <img src="assets/images/image 5.png" alt="">
+                        <p class="desc">Делегировать организацию акселератора опытным специалистам</p><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div id="projects">
+        <p><span class="head1">НАШИ</span><span class="head2">ПРОЕКТЫ</span></p>
+        <div class="container-fluid text-center" style="margin-top: 5em;">
+            <div class="row row-cols-3">
+                <div class="col-4" id="img1">
+                    <div id="img-overlay"><br><p>Марафон Успеха</p></div>
+                </div>
+                <div class="col-2" id="order">
+                    <p class="head">+НОВЫЙ <span style="color: #FFC000;">ПРОЕКТ</span></p>
+                    <p class="subhead2">Тут может быть ваш проект</p>
+                    <p><a class="but" href="">Оставить Заявку</a></p>
+                </div>
+                <div class="col-3" id="img2">
+                    <div id="img-overlay"><br><p>EcoBusinessLab</p></div>
+                </div>
+                <div class="col-3" id="img3">
+                    <div id="img-overlay"><br><p>QUEST VENTURES</p></div>
+                </div>
+                <div class="col-4" id="img4">
+                    <div id="img-overlay"><br><p>BUSINESS BILIM</p></div>
+                </div>
+                <div class="col-2" id="img5">
+                    <div id="img-overlay"><br><p>SOCIAL TRUST</p></div>
+                </div>
+                <div class="col-6" id="img6">
+                    <div id="img-overlay"><br><p>SilkWay Accelerator</p></div>
+                </div>
+                <div class="col-6" id="img7">
+                    <div id="img-overlay"><br><p>Techpreneurs</p></div>
+                </div>
+                <div class="col-6" id="img8">
+                    <div id="img-overlay"><br><p>Поддержка открытия нового бизнеса</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="projects-mob">
+        <p class="head2">НАШИ ПРОЕКТЫ</p>
+        <div class="container-fluid text-center" style="margin-top: 5em;">
+            <div class="row row-cols-2">
+                <div class="col" id="img1">
+                    <div id="img-overlay"><br><br><p>Марафон Успеха</p></div>
+                </div>
+                <div class="col" id="order">
+                    <p class="head">+НОВЫЙ <span style="color: #FFC000;">ПРОЕКТ</span></p>
+                    <p class="subhead2">Тут может быть ваш проект</p>
+                    <p><a class="but" href="">Оставить Заявку</a></p>
+                </div>
+                <div class="col" id="img2">
+                    <div id="img-overlay"><br><br><p>EcoBusinessLab</p></div>
+                </div>
+                <div class="col" id="img3">
+                    <div id="img-overlay"><br><br><p>QUEST VENTURES</p></div>
+                </div>
+                <div class="col" id="img4">
+                    <div id="img-overlay"><br><br><p>BUSINESS BILIM</p></div>
+                </div>
+                <div class="col" id="img5">
+                    <div id="img-overlay"><br><br><p>SOCIAL TRUST</p></div>
+                </div>
+                <div class="col" id="img6">
+                    <div id="img-overlay"><br><br><p>SilkWay Accelerator</p></div>
+                </div>
+                <div class="col" id="img7">
+                    <div id="img-overlay"><br><br><p>Techpreneurs</p></div>
+                </div>
+                <div class="col-12" id="img8">
+                    <div id="img-overlay"><br><br><p>Поддержка открытия нового бизнеса</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="team">
+        <h1>НАША КОМАНДА</h1>
+        <div class="row">
+            <div class="col">
+                <img src="assets/images/tatyana.png" alt="">
+                <p class="head">Хасанова Татьяна</p>
+                <div class="list">
+                    <p>Эксперт</p>
+                    <p>Стратегическое планирование</p>
+                    <p>Управление проектами</p>
+                    <p>Управление персоналом</p>
+                </div>
+            </div>
+            <div class="col">
+                <img src="assets/images/timur.png" alt="">
+                <p class="head">Рахимжанов Тимур</p>
+                <div class="list">
+                    <p>Эксперт</p>
+                    <p>Финансовое планирование</p>
+                    <p>Финансовый анализ</p>
+                    <p>Финансовое прогнозирование</p>
+                </div>
+            </div>
+            <div class="col">
+                <img src="assets/images/tamara.png" alt="">
+                <p class="head">Роздобудько Тамара</p>
+                <div class="list">
+                    <p>Эксперт</p>
+                    <p>Маркетинг и продажи</p>
+                    <p>HR</p>
+                    <p>Менеджмент</p>
+                    <p>Бизнес-процессы</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="assets/images/aigul.png" alt="">
+                <p class="head">Абайдуллина Айгуль</p>
+                <div class="list">
+                    <p>Эксперт</p>
+                    <p>Менеджер по качеству</p>
+                    <p>Координатор проектов</p>
+                </div>
+            </div>
+            <div class="col">
+                <img src="assets/images/margrarita.png" alt="">
+                <p class="head">Роздобудько Маргарита</p>
+                <div class="list">
+                    <p>Эксперт</p>
+                    <p>Маркетинг и продажи</p>
+                    <p>Управление проектами и бизнес-процессы</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h1 class="client">НАШИ КЛИЕНТЫ</h1>
+    <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
+        <div class="gallery-cell">
+            <img src="assets/images/image 10.png" alt="" style="width: 260px; height: 118px;">
+        </div>
+        <div class="gallery-cell">
+            <img src="assets/images/image 11.png" alt="" style="width: 197px; height: 133px;">
+        </div>
+        <div class="gallery-cell">
+            <img src="assets/images/image 12.png" alt="" style="width: 478px; height: 53px;">
+        </div>
+        <div class="gallery-cell">
+            <img src="assets/images/image 13.png" alt="" style="width: 288px; height: 180px;">
+        </div>
+        <div class="gallery-cell">
+            <img src="assets/images/image 10.png" alt="" style="width: 260px; height: 118px;">
+        </div>
+        <div class="gallery-cell">
+            <img src="assets/images/image 11.png" alt="" style="width: 197px; height: 133px;">
+        </div>
+        <div class="gallery-cell">
+            <img src="assets/images/image 12.png" alt="" style="width: 478px; height: 53px;">
+        </div>
+        <div class="gallery-cell">
+            <img src="assets/images/image 13.png" alt="" style="width: 288px; height: 180px;">
+        </div>
+    </div>
+    <footer>
+        <div class="container" id="contacts">
+            <div class="row">
+                <div class="col">
+                    <p class="h">КОНТАКТЫ</p>
+                    <p class="s">ПРИСОЕДИНЯЙСЯ</p>
+                    <form>
+                        <input  id="phone1" name="phone1" type="text">
+                        <script>
+                            $(function(){
+                                $("#phone1").mask("+7(999) 999-9999");
+                            });
+                        </script>
+                        <input type="submit" value="Отправить">
+                    </form>        
+                </div>
+                <div class="col">
+                    <p class="social">СОЦИАЛЬНЫЕ <span style="color:#FFC000">СЕТИ</span><p>
+                    <ul>
+                        <li>
+                            <img src="assets/images/pngfind 1.png" alt="">
+                            <a href="">@centerat</a>
+                        </li>
+                        <li>
+                            <img src="assets/images/pngfind 2.png" alt="">
+                            <a href="">@centerat</a>
+                        </li>
+                        <li>
+                            <img src="assets/images/kindpng_497719 1.png" alt="">
+                            <a href="">@centerat</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
